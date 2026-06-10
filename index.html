@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PixelVault Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+<h1>PixelVault Gallery</h1>
+
+<p>
+Explore Nature, Flowers, Animals, Travel,
+Cartoons & Technology
+</p>
+
+</header>
+
+<div class="filter-bar">
+
+<button class="active" data-filter="all">All</button>
+<button data-filter="nature">Nature</button>
+<button data-filter="flower">Flowers</button>
+<button data-filter="animal">Animals</button>
+<button data-filter="travel">Travel</button>
+<button data-filter="cartoon">Cartoons</button>
+<button data-filter="technology">Technology</button>
+
+</div>
+
+<div id="gallery"></div>
+
+<div id="lightbox">
+
+<span id="closeBtn">&times;</span>
+
+<button id="prevBtn">❮</button>
+
+<img id="lightboxImage">
+
+<button id="nextBtn">❯</button>
+
+<div id="imageCounter"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
