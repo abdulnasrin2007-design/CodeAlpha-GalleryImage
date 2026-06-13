@@ -4,7 +4,9 @@ const categories = [
     ["nature", 8],
     ["flower", 8],
     ["animal", 8],
-    ["cartoon", 8]
+    ["cartoon", 8],
+    ["travel", 8],
+    ["technology", 8]
 ];
 
 let allImages = [];
